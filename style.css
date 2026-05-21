@@ -29,7 +29,8 @@ nav {
 .navlinks {
     list-style: none;
     display: flex;
-    gap: 35px;
+    justify-content: space-evenly;
+    gap: 240px;
 }
 .navlinks a {
     color: #0affcf;
@@ -56,6 +57,7 @@ nav {
 
 .whatischaracterdesign{
     width: 350px;
+
     padding: 10px;
     background:#380f001f;
     position: relative;
@@ -73,13 +75,31 @@ nav {
     left: 5px;
 
 }
-.box-title{
+.layers{
+    width: 350px;
+    padding: 10px;
+    background:#380f001f;
+    position: relative;
+    top: 15px;
+    left: 5px;
+
+}
+.process{
+    width: 350px;
+    padding: 10px;
+    background:#380f001f;
+    position: relative;
+    top: 20px;
+    left: 5px;
+
+}
+.title{
     font-size:25px;
     text-align: center;
     color: #380F00;
 
 }
-.filltext {
+.content {
     color: #380F00;
     text-align: justify;
 }
