@@ -29,8 +29,8 @@ nav {
 .navlinks {
     list-style: none;
     display: flex;
-    justify-content: space-evenly;
-    gap: 240px;
+    gap: 40px;
+    justify-content: center;
 }
 .navlinks a {
     color: #0affcf;
@@ -54,44 +54,31 @@ nav {
 }
 
 /*TEXT*/
-
-.whatischaracterdesign{
-    width: 350px;
-
-    padding: 10px;
-    background:#380f001f;
-    position: relative;
-    top: 5px;
-    left: 5px;
-
+.page {
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+}
+.testbox{
+   margin: 5px;
+    padding: 5px;
+    width: 50%;
+    background-color: #380f0021;
 }
 
-.characterdesigntheory{
-    width: 350px;
-    padding: 10px;
-    background:#380f001f;
-    position: relative;
-    top: 10px;
-    left: 5px;
-
+.text-column {
+    flex: 1;
 }
-.layers{
-    width: 350px;
-    padding: 10px;
-    background:#380f001f;
-    position: relative;
-    top: 15px;
-    left: 5px;
 
+
+.video-column {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
 }
-.process{
-    width: 350px;
-    padding: 10px;
-    background:#380f001f;
-    position: relative;
-    top: 20px;
-    left: 5px;
 
+.processautovid{
+    padding: 5px;
 }
 .title{
     font-size:25px;
@@ -103,7 +90,6 @@ nav {
     color: #380F00;
     text-align: justify;
 }
-
 
 
     /* responsive scale */
