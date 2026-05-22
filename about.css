@@ -1,0 +1,143 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background: #ffe9d9;
+}
+
+/*navigation*/
+nav {
+    background-color: #380f00;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    position: relative;
+}
+.logo {
+    color: #0affcf;
+    font-size: 24px;
+    font-weight: bold;
+}
+.logo img {
+    transition: transform 0.6s ease;
+}
+.logo img:hover{
+    transform: scale(0.85);
+}
+.navlinks {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+.navlinks a {
+    color: #0affcf;
+    text-decoration: none;
+    font-size: 35px;
+    display:inline-block;
+    transition: transform 0.6s ease
+}
+.navlinks a:hover {
+    color: #a82f2f;
+    transform: scale(0.85);
+}
+
+/* burger */
+.burgertoggle {
+    display: none;
+    font-size: 28px;
+    color: #0affcf;
+    cursor: pointer;
+}
+
+/*Content*/
+.layout{
+    display:grid;
+    grid-template-columns: 2fr 1fr;
+    padding: 10px;
+    gap: 10px;
+    min-height:100vh;
+}
+.left-column{
+    display: grid;
+    gap: 10px
+}
+.right-side{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    text-align: justify;
+}
+.card{
+    background: #380f001f;
+    padding: 30px;
+    text-align: justify;
+    border: 4px #380f00;
+}
+
+.card h3{
+    margin-bottom: 40px;
+}
+
+.profile-img{
+    display:block;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+.profile-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+h3{
+    font-size: 2rem;
+}
+
+p{
+    font-size: 1rem;
+}
+/* responsive scale */
+@media (max-width: 768px) {
+    .burgertoggle {
+        display: block;
+    }
+
+    .navlinks {
+        display: none;
+        flex-direction: column;
+        background-color: #380f00;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        padding: 20px;
+    }
+
+    .navlinks.active {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .layout {
+        grid-template-columns: 1fr;
+    }
+    h2 {
+        font-size: 1.5rem;
+    }
+    p {
+        font-size: 1.1rem;
+    }
+    .profile-image {
+        width: 100px;
+        height: 100px;
+    }
+}
