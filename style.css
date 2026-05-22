@@ -77,7 +77,7 @@ nav {
 /*textboxes to left*/
 .tbox{
     margin: 5px;
-    margin-left: 15px;
+    margin-left: 23px;
     background: #380f001f;
     padding: 10px;
 }
@@ -86,7 +86,12 @@ nav {
     margin: 5px;
     width: 98%;
     height: 97%;
+    max-height: 370px;
+    max-width: 1383px;
+    background: #380f00;
+    cursor: pointer;
     object-fit: cover;
+
 }
 /*format of text elements*/
 .title{
