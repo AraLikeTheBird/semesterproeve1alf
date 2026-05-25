@@ -4,14 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="77119239-1009-4c89-b456-45273f3bfad7" name="Changes" comment="5/22- 2026&#10;safe point before fold out menue">
-      <change afterPath="$PROJECT_DIR$/about.css" afterDir="false" />
+    <list default="true" id="77119239-1009-4c89-b456-45273f3bfad7" name="Changes" comment="5/22- 2026&#10;15:22&#10;working in about page">
+      <change afterPath="$PROJECT_DIR$/contact.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/creator.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about.css" beforeDir="false" afterPath="$PROJECT_DIR$/about.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/placeholder.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/placeholder.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/creator.html" beforeDir="false" afterPath="$PROJECT_DIR$/creator.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascrip.js" beforeDir="false" afterPath="$PROJECT_DIR$/javascrip.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +115,10 @@
       <workItem from="1779372601288" duration="24290000" />
       <workItem from="1779400487557" duration="6763000" />
       <workItem from="1779429878079" duration="21434000" />
-      <workItem from="1779452910400" duration="2364000" />
+      <workItem from="1779452910400" duration="18919000" />
+      <workItem from="1779538224633" duration="1392000" />
+      <workItem from="1779540298514" duration="17972000" />
+      <workItem from="1779718026747" duration="2908000" />
     </task>
     <task id="LOCAL-00001" summary="nav bar for index">
       <option name="closed" value="true" />
@@ -185,7 +192,23 @@
       <option name="project" value="LOCAL" />
       <updated>1779444061623</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="5/22- 2026&#10;15:22&#10;working in about page">
+      <option name="closed" value="true" />
+      <created>1779455583928</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1779455583928</updated>
+    </task>
+    <task id="LOCAL-00011" summary="5/22- 2026&#10;15:22&#10;working in about page">
+      <option name="closed" value="true" />
+      <created>1779455590588</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1779455590588</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -210,7 +233,8 @@
     <MESSAGE value="5/21-2026&#10;&#10;textboxes and video, still need help. its 1:41 am, i sleep now" />
     <MESSAGE value="5/22- 2026&#10;fucking finally got the grids to work" />
     <MESSAGE value="5/22- 2026&#10;safe point before fold out menue" />
-    <option name="LAST_COMMIT_MESSAGE" value="5/22- 2026&#10;safe point before fold out menue" />
+    <MESSAGE value="5/22- 2026&#10;15:22&#10;working in about page" />
+    <option name="LAST_COMMIT_MESSAGE" value="5/22- 2026&#10;15:22&#10;working in about page" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

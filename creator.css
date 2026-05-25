@@ -12,7 +12,7 @@ body {
     background: #ffe9d9;
     display: flex;
     flex-direction: column;
-    min-height: 130vh;
+    min-height: 130vh
 }
 nav {
     background-color: #380f00;
@@ -77,64 +77,17 @@ nav {
     cursor: pointer;
 }
 main{
-    flex:1
-}
-/*Content*/
-.layout{
-    display:grid;
-    grid-template-columns: 2fr 1fr;
-    padding: 10px;
-    gap: 10px;
-    min-height:100vh;
-}
-.left-column{
-    display: grid;
-    gap: 10px
-}
-.right-side{
+     flex:1
+ }
+footer{
+    text-align: center;
+    padding: 20px;
+    background: #a82f2f;
+    color: #380f00;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    padding: 10px;
-    text-align: justify;
-    background-color: #380f001f;
-    margin-right: 23px;
-    margin:5px;
+    gap: 10px;
 }
-.card{
-    background: #380f001f;
-    padding: 10px;
-    margin:5px;
-    margin-left: 23px;
-    text-align: justify;
-    border: 4px #380f00;
-}
-
-.card h3{
-    margin-bottom: 40px;
-}
-img.profile-image {
-    border-radius: 50%;
-    padding: 2px;
-}
-
-h3{
-    font-size: 2rem;
-    text-align: center;
-    padding: 10px;
-}
-p{
-    font-size: 1rem;
-}
-footer{
-     text-align: center;
-     padding: 20px;
-     background: #a82f2f;
-     color: #380f00;
-     display: flex;
-     flex-direction: column;
-     gap: 10px;
- }
 .footer-links a {
     margin: 0 10px;
     text-decoration: none;
@@ -159,8 +112,95 @@ footer a:hover{
     color: #FFE9D9;
     text-decoration-color:#FFE9D9;
 }
+
+
+
+
+/*temporary*/
+.leftinfo{
+    background-color: lightskyblue;
+}
+.rightinfo{
+    background-color: dodgerblue;
+}
+.avatararea{
+    background-color: palevioletred;
+}
+.controls{
+    background-color: palegreen;
+}
+.avcontainer{
+    background-color: chocolate;
+}
+
+
+
+/*page specific area*/
+.workspace{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.avatararea{
+    min-height: 65vh;
+    position: relative;
+}
+.avcontainer{
+    margin: 10px;
+    padding: 7px;
+}
+.controls{
+    min-height: 30vh;
+    display: flex;
+    flex-direction: column;
+}
+.modes{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 1vh;
+    background-color: aquamarine;
+}
+.modes button.active{
+    background: black;
+    color: white;
+}
+.customoptions{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    background-color: chocolate;
+    padding: 10px;
+    gap: 5px;
+}
+.customoptions button.active{
+    background: black;
+    color: white;
+}
+
+.categories{
+    padding: 10px;
+    background-color: blue;
+}
+.categories button.active{
+    background: black;
+    color: white;
+}
+
+
+.creatorcol{
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}
+
+
 /* responsive scale */
 @media (max-width: 768px) {
+
     .burgertoggle {
         display: block;
     }
@@ -181,32 +221,23 @@ footer a:hover{
         flex-direction: column;
         align-items: center;
     }
-    .layout {
-        grid-template-columns: 1fr;
+    footer {
+        padding: 20px;
+        height: auto;   /* IMPORTANT */
+        gap: 15px;
     }
-    h2 {
-        font-size: 1.5rem;
-    }
-    p {
-        font-size: 1.1rem;
-    }
-    .profile-image {
-        width: 100px;
-        height: 100px;
-        footer {
-            padding: 20px;
-            height: auto;   /* IMPORTANT */
-            gap: 15px;
-        }
 
-        .footer-links {
-            flex-direction: column;
-            align-items: center;
-            gap: 10px;
-        }
+    .footer-links {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
 
-        footer a {
-            display: block;
-        }
+    footer a {
+        display: block;
+    }
+    .logoimg{
+        display:flex;
+        justify-content: center;
     }
 }

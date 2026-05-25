@@ -2,20 +2,89 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Characraft character creator</title>
-    <link rel="stylesheet" href="index.css">
+    <title>CharaCraft Creator</title>
+    <link rel="stylesheet" href="creator.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-<nav>
-    <a class="logo" href="index.html"><img src="assets/placeholder-logo.png" alt="scary esa logo placeholder" width="50px" height="50px"></a>
+    <header>
+        <nav>
+        <a class="logo" href="index.html"><img src="assets/placeholder-logo.png" alt="scary esa logo placeholder" width="50px" height="50px"></a>
 
-    <ul class="navlinks">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="creator.html">Creator</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="contact.html">Contact</a></li>
-    </ul>
-    <div class="burgertoggle">☰</div>
-</nav>
+        <ul class="navlinks">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="creator.html">Creator</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="burgertoggle">☰</div>
+    </nav>
+    </header>
+    <main>
+        <section class="workspace">
+            <section class="leftinfo">
+                <h2>What does this element do?</h2>
+                <p>Element descriptions will appear here.</p>
+            </section>
+            <section class="creatorcol">
+                <section class="avatararea">
+                    <h3>This is your character</h3>
+                    <div class="avcontainer">
+                        <p>hoolo</p>
+                        <!-- avatar layers here -->
+                    </div>
+                </section>
+                <section class="controls">
+                    <div class="modes">
+                        <button class="shape" data-mode="shape">Shape</button>
+                        <button class="prop" data-mode="prop">Proportions</button>
+                        <button class="sill" data-mode="sill">Silhouette</button>
+                        <button class="coolers" data-mode="colors">Colours</button>
+                    </div>
+                        <section class="categories">
+                            <button> head</button>
+                            <button>body</button>
+                        </section>
+                    <div class="customoptions">
+                        <button>option1</button>
+                        <button>option2</button>
+                        <button>option3</button>
+                        <button>option4</button>
+                        <button>option5</button>
+                        <button>option6</button>
+                        <button>option7</button>
+                        <button>option8</button>
+                        <button>option9</button>
+                        <button>optio10</button>
+                        <button>option11</button>
+                        <button>option12</button>
+                        <button>option13</button>
+                        <!-- Character options go here -->
+                    </div>
+                </section>
+            </section>
+            <aside class="rightinfo">
+                <section class="pronciple">
+                    <h2>Why is this principle important?</h2>
+                    <p>Explanation text will appear here.</p>
+                </section>
+            </aside>
+        </section>
+    </main>
+    <footer>
+        <a class="logoimg"><img src="assets/placeholder-logo.png" alt="currently esas uncanny valley face, later propper logo" width="100px" height="100px"></a>
+        <p>Author: Ara Westh</p>
+        <p>© 2026 CharaCraft</p>
+        <div class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="creator.html">Creator</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </div>
+        <a href="mailto:arw01@edu.zealand.dk" alt="write a mail" target="_blank">Mail</a>
+        <a href="https://github.com/AraLikeTheBird/semesterproeve1alf" alt="link to github reporsatory" target="_blank"> GitHub</a>
+    </footer>
+    <button id="scrollTopBtn" onclick="scrollToTop()">↑</button>
+    <script src="javascrip.js"></script>
 </body>
 </html>
